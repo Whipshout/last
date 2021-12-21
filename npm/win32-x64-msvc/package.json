@@ -1,5 +1,5 @@
 {
-  "name": "last-win32-x64-msvc",
+  "name": "lastwhipshout-win32-x64-msvc",
   "version": "1.0.0",
   "os": [
     "win32"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "last.win32-x64-msvc.node",
+  "main": "lastwhipshout.win32-x64-msvc.node",
   "files": [
-    "last.win32-x64-msvc.node"
+    "lastwhipshout.win32-x64-msvc.node"
   ],
   "license": "MIT",
   "engines": {

@@ -1,10 +1,10 @@
 {
-  "name": "last",
+  "name": "lastwhipshout",
   "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "last",
+    "name": "lastwhipshout",
     "triples": {}
   },
   "license": "MIT",

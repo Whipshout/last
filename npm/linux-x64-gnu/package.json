@@ -1,5 +1,5 @@
 {
-  "name": "last-linux-x64-gnu",
+  "name": "lastwhipshout-linux-x64-gnu",
   "version": "1.0.0",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "last.linux-x64-gnu.node",
+  "main": "lastwhipshout.linux-x64-gnu.node",
   "files": [
-    "last.linux-x64-gnu.node"
+    "lastwhipshout.linux-x64-gnu.node"
   ],
   "license": "MIT",
   "engines": {

@@ -1,5 +1,5 @@
 {
-  "name": "last-darwin-x64",
+  "name": "lastwhipshout-darwin-x64",
   "version": "1.0.0",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "last.darwin-x64.node",
+  "main": "lastwhipshout.darwin-x64.node",
   "files": [
-    "last.darwin-x64.node"
+    "lastwhipshout.darwin-x64.node"
   ],
   "license": "MIT",
   "engines": {

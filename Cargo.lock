@@ -28,7 +28,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "last"
+name = "lastwhipshout"
 version = "1.0.0"
 dependencies = [
  "napi",
