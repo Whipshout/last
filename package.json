@@ -24,5 +24,8 @@
     "prepublishOnly": "napi prepublish -t npm",
     "version": "napi version",
     "test": "ava"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4"
   }
 }
