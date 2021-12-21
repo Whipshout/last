@@ -1,6 +1,7 @@
 name: CI
 env:
   DEBUG: napi:*
+  RELEASE: napi:*
   APP_NAME: last
   MACOSX_DEPLOYMENT_TARGET: '10.13'
 'on':
