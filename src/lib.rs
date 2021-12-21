@@ -1,3 +1,5 @@
+#![deny(clippy::all)]
+
 //! Node native addon
 //!
 //! Provides an abstraction of C bindings to use our libraries directly from Typescript.<br>

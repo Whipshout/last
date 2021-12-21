@@ -24,9 +24,7 @@
     "build:debug": "napi build --platform",
     "prepublishOnly": "napi prepublish -t npm",
     "version": "napi version",
-    "test": "npm run test:rust && npm run test:js",
-    "test:rust": "cargo test --release",
-    "test:js": "ava",
+    "test": "ava",
     "doc": "cargo rustdoc --release --open -- --document-private-items"
   }
 }
