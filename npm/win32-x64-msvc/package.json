@@ -1,15 +1,15 @@
 {
-  "name": "lastwhipshout-win32-x64-msvc",
-  "version": "2.0.0",
+  "name": "wtools-rust-win32-x64-msvc",
+  "version": "0.5.0",
   "os": [
     "win32"
   ],
   "cpu": [
     "x64"
   ],
-  "main": "lastwhipshout.win32-x64-msvc.node",
+  "main": "wtools-rust.win32-x64-msvc.node",
   "files": [
-    "lastwhipshout.win32-x64-msvc.node"
+    "wtools-rust.win32-x64-msvc.node"
   ],
   "license": "MIT",
   "engines": {
