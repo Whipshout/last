@@ -1,6 +1,8 @@
 {
   "name": "wtools-rust",
-  "version": "0.5.0",
+  "version": "0.6.0",
+  "author": "Eduardo S. <whipshout@gmail.com>",
+  "description": "Rust tools for Node native addon",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -25,6 +27,7 @@
     "prepublishOnly": "napi prepublish -t npm",
     "version": "napi version",
     "test": "ava",
+    "test:rust": "cargo test",
     "doc": "cargo rustdoc --release --open -- --document-private-items"
   }
 }

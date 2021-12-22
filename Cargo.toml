@@ -1,7 +1,9 @@
 [package]
 edition = "2021"
 name = "wtools-rust"
-version = "0.5.0"
+version = "0.6.0"
+authors = ["Eduardo Sánchez <whipshout@gmail.com>"]
+description = "Rust tools for Node native addon"
 
 [lib]
 crate-type = ["cdylib"]
