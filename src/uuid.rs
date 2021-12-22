@@ -1,5 +1,3 @@
-#![deny(clippy::all)]
-
 //! Generates uuids
 //!
 //! Provides an abstraction of C bindings to use this module directly from Typescript.<br>
