@@ -3,8 +3,11 @@ Cargo.lock
 .cargo
 .github
 npm
-.eslintrc
-.prettierignore
-rustfmt.toml
 yarn.lock
 *.node
+src
+build
+tests
+ava.config.js
+build.rs
+Cargo.toml

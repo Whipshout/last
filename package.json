@@ -1,6 +1,6 @@
 {
   "name": "wtools-rust",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "author": "Eduardo S. <whipshout@gmail.com>",
   "description": "Rust tools for Node native addon",
   "main": "index.js",

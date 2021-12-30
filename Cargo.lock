@@ -414,7 +414,7 @@ checksum = "11d95421d9ed3672c280884da53201a5c46b7b2765ca6faf34b0d71cf34a3561"
 
 [[package]]
 name = "wtools-rust"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "fake",
  "napi",
