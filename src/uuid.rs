@@ -44,8 +44,6 @@ use uuid::Uuid;
 /// console.log(id)
 /// ```
 #[napi]
-/// ASDFASDFASDF
-/// pouipiou
 fn uuid(s: Option<String>) -> String {
     // Check if there is a string parameter or not
     match s {

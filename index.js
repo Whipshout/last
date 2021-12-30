@@ -210,6 +210,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { uuid } = nativeBinding
+const { uuid, sum } = nativeBinding
 
 module.exports.uuid = uuid
+module.exports.sum = sum

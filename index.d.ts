@@ -10,6 +10,7 @@ export class ExternalObject<T> {
   }
 }
 /**
- * Javascript halp
+ * Function that generates a random uuid.
+ * If used with an argument of type string, it generates a Sha256 with the input and then transforms it to uuid.
  */
 export function uuid(s?: string | undefined | null): string
