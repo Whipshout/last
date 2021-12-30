@@ -138,16 +138,6 @@ jobs:
         shell: bash
       - name: Test bindings
         run: yarn test
-      - name: Cache cargo registry
-        uses: actions/cache@v2
-        with:
-          path: ~/.cargo/registry
-          key: ${{ matrix.settings.target }}-node@16-cargo-registry-trimmed-${{ hashFiles('**/Cargo.lock') }}
-      - name: Cache cargo index
-        uses: actions/cache@v2
-        with:
-          path: ~/.cargo/git
-          key: ${{ matrix.settings.target }}-node@16-cargo-index-trimmed-${{ hashFiles('**/Cargo.lock') }}
       - name: Test rust
         run: yarn test:rust
   test-linux-x64-gnu-binding:
@@ -187,6 +177,8 @@ jobs:
         shell: bash
       - name: Test bindings
         run: docker run --rm -v $(pwd):/build -w /build node:${{ matrix.node }}-slim yarn test
+      - name: Test rust
+        run: yarn test:rust
   publish:
     name: Publish
     runs-on: ubuntu-latest

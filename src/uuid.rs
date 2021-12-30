@@ -16,6 +16,8 @@
 //! [`NAPI GitHub`]: https://github.com/napi-rs/napi-rs
 //! [`NAPI Examples`]: https://github.com/napi-rs/napi-rs/tree/main/examples/napi
 
+#![allow(dead_code)]
+
 use sha2::{Digest, Sha256};
 use uuid::Uuid;
 
