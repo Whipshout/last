@@ -1,3 +1,3 @@
-# `last-linux-x64-gnu`
+# `wtools-rust-linux-x64-gnu`
 
-This is the **x86_64-unknown-linux-gnu** binary for `last`
+This is the **x86_64-unknown-linux-gnu** binary for `wtools-rust`

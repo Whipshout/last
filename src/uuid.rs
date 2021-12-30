@@ -72,7 +72,7 @@ fn generate_uuid_with_input(s: String) -> String {
     let hash = Sha256::digest(s.as_bytes());
 
     // Format hash to text
-    let hash_text = format!("{:x}", hash);
+    let hash_text = format!("{:X}", hash);
 
     // ------------ Format hash to uuid style ------------
     // Change length to 36
@@ -110,7 +110,7 @@ fn generate_uuid_with_input(s: String) -> String {
 /// ```
 fn generate_uuid_without_input() -> String {
     // Generates random uuid
-    Uuid::new_v4().to_string()
+    Uuid::new_v4().to_string().to_uppercase()
 }
 
 #[cfg(test)]

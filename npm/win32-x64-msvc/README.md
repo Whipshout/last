@@ -1,3 +1,3 @@
-# `last-win32-x64-msvc`
+# `wtools-rust-win32-x64-msvc`
 
-This is the **x86_64-pc-windows-msvc** binary for `last`
+This is the **x86_64-pc-windows-msvc** binary for `wtools-rust`

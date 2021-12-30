@@ -1,7 +1,7 @@
 [package]
 edition = "2021"
 name = "wtools-rust"
-version = "0.6.0"
+version = "0.7.0"
 authors = ["Eduardo Sánchez <whipshout@gmail.com>"]
 description = "Rust tools for Node native addon"
 
@@ -10,7 +10,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 napi = { version = "2.0.2", default-features = false, features = ["napi4"] }
-napi-derive = "2.0.1"
+napi-derive = "2.0.4"
 sha2 = "0.9.8"
 uuid = { version = "0.8", features = ["v4"] }
 

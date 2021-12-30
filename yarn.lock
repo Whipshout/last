@@ -42,10 +42,10 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@napi-rs/cli@^2.0.0":
-  "integrity" "sha512-2R24dtZoPYb9TxIQJbhUSloSVK4HGfa6CVn5JgUeO9WTvZecC5i8WaFm2CC7GWbYmDlPu2AnULwaSr+AP7r1RQ=="
-  "resolved" "https://registry.npmjs.org/@napi-rs/cli/-/cli-2.0.0.tgz"
-  "version" "2.0.0"
+"@napi-rs/cli@^2.2.0":
+  "integrity" "sha512-lXOKq0EZWztzHIlpXhKG0Nrv/PDZAl/yBsqQTG0aDfdjGCJudtPgWLR7zzaJoYzkkdFJo0r+teYYzgC+cXB4KQ=="
+  "resolved" "https://registry.npmjs.org/@napi-rs/cli/-/cli-2.2.0.tgz"
+  "version" "2.2.0"
 
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
