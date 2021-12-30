@@ -138,17 +138,6 @@ jobs:
         shell: bash
       - name: Test bindings
         run: yarn test
-      - name: Rust toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          profile: minimal
-          override: true
-          toolchain: stable
-          target: ${{ matrix.settings.target }}
-      - name: Generate Cargo.lock
-        uses: actions-rs/cargo@v1
-        with:
-          command: generate-lockfile
       - name: Cache cargo registry
         uses: actions/cache@v2
         with:
