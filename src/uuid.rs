@@ -32,7 +32,7 @@ use uuid::Uuid;
 ///
 /// # Examples (Typescript code)
 ///
-/// ```typescript
+/// ```
 /// import { uuid } from './index'
 ///
 /// // Generate a uuid from a string input
@@ -44,6 +44,8 @@ use uuid::Uuid;
 /// console.log(id)
 /// ```
 #[napi]
+/// ASDFASDFASDF
+/// pouipiou
 fn uuid(s: Option<String>) -> String {
     // Check if there is a string parameter or not
     match s {

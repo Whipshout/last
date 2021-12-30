@@ -11,3 +11,4 @@ tests
 ava.config.js
 build.rs
 Cargo.toml
+test.ts
